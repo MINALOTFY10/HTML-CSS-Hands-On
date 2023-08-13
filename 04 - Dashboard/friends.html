@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friends</title>
+
+    <!-- Main CSS File -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Render All Elements Normally -->
+    <link rel="stylesheet" href="css/normailze.css">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- FrameWork -->
+    <link rel="stylesheet" href="css/framework.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,600&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="page d-flex">
+        <div class="sidebar bg-white p-20 p-relative">
+            <h3 class="p-relative txt-c mt-0">Elzero</h3>
+            <ul>
+                <li>
+                    <a class=" d-flex align-center fs-14 c-black rad-6 p-10" href="index.html">
+                        <i class="fa-regular fa-chart-bar fa-fw"></i>
+                        <span>Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="settings.html">
+                        <i class="fa-solid fa-gear fa-fw"></i>
+                        <span>Settings</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="profile.html">
+                        <i class="fa-regular fa-user fa-fw"></i>
+                        <span>Profile</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="projects.html">
+                        <i class="fa-solid fa-diagram-project fa-fw"></i>
+                        <span>Projects</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="courses.html">
+                        <i class="fa-solid fa-graduation-cap fa-fw"></i>
+                        <span>Courses</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="active d-flex align-center fs-14 c-black rad-6 p-10" href="friends.html">
+                        <i class="fa-regular fa-circle-user fa-fw"></i>
+                        <span>Friends</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="files.html">
+                        <i class="fa-regular fa-file fa-fw"></i>
+                        <span>Files</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="plans.html">
+                        <i class="fa-regular fa-credit-card fa-fw"></i>
+                        <span>Plans</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="content w-full">
+            <!-- Start Head -->
+            <div class="head bg-white p-15 between-flex">
+                <div class="search p-relative">
+                    <input class="p-10" type="search" placeholder="Type A Keyword" />
+                </div>
+                <div class="icons d-flex align-center">
+                    <span class="notification p-relative">
+                        <i class="fa-regular fa-bell fa-lg"></i>
+                    </span>
+                    <img src="imgs/avatar.png" alt="" />
+                </div>
+            </div>
+            <!-- End Head -->
+            <h1 class="p-relative">Dashboard</h1>
+
+            <div class="course-wrapper d-grid gap-20 mt-25">
+
+                <!-- Start Friend Widget -->
+                <div class="friend bg-white rad-10 txt-c-mobile block-mobile p-20 p-relative">
+                    <div class="contact p-absolute">
+                        <i class="fa-solid fa-phone rad-half fs-14"></i>
+                        <i class="fa-regular fa-envelope rad-half fs-14"></i>
+                    </div>
+                    <div class="profile txt-c mt-15">
+                        <img class="rad-half" src="/imgs/friend-01.jpg" alt="">
+                        <h4 class="fs-18 fw-700 mt-15 mb-0">Ahmed Nasser</h4>
+                        <p class="c-grey fw-300">Javascript Developer</p>
+                    </div>
+                    <div class="details mt-15 pb-10 mb-15">
+                        <div class="detail-row d-flex">
+                            <i class="fa-regular fa-face-smile mtb-auto mr-15"></i>
+                            <p class="p-0 m-0 fw-500">99 Friend</p>
+                        </div>
+                        <div class="detail-row d-flex">
+                            <i class="fa-solid fa-diagram-project mtb-auto mr-15"></i>
+                            <p class="p-0 m-0 fw-500">15 Project</p>
+                        </div>
+                        <div class="detail-row d-flex">
+                            <i class="fa-regular fa-newspaper mtb-auto mr-15"></i>
+                            <p class="p-0 m-0 fw-500">25 Articles</p>
+                        </div>
+                    </div>
+                    <div class="options between-flex">
+                        <div class="c-grey fs-13 fw-500">Joined 02/10/2021</div>
+                        <div class="d-flex">
+                            <a class="button bg-blue c-white btn-shape fs-13 fw-500 center-flex mr-5"
+                                href="#">Profile</a>
+                            <a class="button bg-red c-white btn-shape fs-13 fw-500 center-flex" href="#">Remove</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Friend Widget -->
+
+
+                <!-- Start Friend Widget -->
+                <div class="friend bg-white rad-10 txt-c-mobile block-mobile p-20 p-relative">
+                    <div class="contact p-absolute">
+                        <i class="fa-solid fa-phone rad-half fs-14"></i>
+                        <i class="fa-regular fa-envelope rad-half fs-14"></i>
+                    </div>
+                    <div class="profile txt-c mt-15">
+                        <img class="rad-half" src="/imgs/friend-02.jpg" alt="">
+                        <h4 class="fs-18 fw-700 mt-15 mb-0">Omar Fathy</h4>
+                        <p class="c-grey fw-300">Cloud Developer</p>
+                    </div>
+                    <div class="details mt-15 pb-10 mb-15">
+                        <div class="detail-row d-flex">
+                            <i class="fa-regular fa-face-smile mtb-auto mr-15"></i>
+                            <p class="p-0 m-0 fw-500">50 Friend</p>
+                        </div>
+                        <div class="detail-row d-flex">
+                            <i class="fa-solid fa-diagram-project mtb-auto mr-15"></i>
+                            <p class="p-0 m-0 fw-500">24 Project</p>
+                        </div>
+                        <div class="detail-row d-flex">
+                            <i class="fa-regular fa-newspaper mtb-auto mr-15"></i>
+                            <p class="p-0 m-0 fw-500">10 Articles</p>
+                        </div>
+                    </div>
+                    <div class="options between-flex">
+                        <div class="c-grey fs-13 fw-500">Joined 14/5/2023</div>
+                        <div class="d-flex">
+                            <a class="button bg-blue c-white btn-shape fs-13 fw-500 center-flex mr-5"
+                                href="#">Profile</a>
+                            <a class="button bg-red c-white btn-shape fs-13 fw-500 center-flex" href="#">Remove</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Friend Widget -->
+
+
+                <!-- Start Friend Widget -->
+                <div class="friend bg-white rad-10 txt-c-mobile block-mobile p-20 p-relative">
+                    <div class="contact p-absolute">
+                        <i class="fa-solid fa-phone rad-half fs-14"></i>
+                        <i class="fa-regular fa-envelope rad-half fs-14"></i>
+                    </div>
+                    <div class="profile txt-c mt-15">
+                        <img class="rad-half" src="/imgs/friend-03.jpg" alt="">
+                        <h4 class="fs-18 fw-700 mt-15 mb-0">Omar Ahmed</h4>
+                        <p class="c-grey fw-300">Mobile Developer</p>
+                    </div>
+                    <div class="details mt-15 pb-10 mb-15">
+                        <div class="detail-row d-flex">
+                            <i class="fa-regular fa-face-smile mtb-auto mr-15"></i>
+                            <p class="p-0 m-0 fw-500">89 Friend</p>
+                        </div>
+                        <div class="detail-row d-flex">
+                            <i class="fa-solid fa-diagram-project mtb-auto mr-15"></i>
+                            <p class="p-0 m-0 fw-500">69 Project</p>
+                        </div>
+                        <div class="detail-row d-flex">
+                            <i class="fa-regular fa-newspaper mtb-auto mr-15"></i>
+                            <p class="p-0 m-0 fw-500">75 Articles</p>
+                        </div>
+                    </div>
+                    <div class="options between-flex">
+                        <div class="c-grey fs-13 fw-500">Joined 04/14/2011</div>
+                        <div class="d-flex">
+                            <a class="button bg-blue c-white btn-shape fs-13 fw-500 center-flex mr-5"
+                                href="#">Profile</a>
+                            <a class="button bg-red c-white btn-shape fs-13 fw-500 center-flex" href="#">Remove</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Friend Widget -->
+
+
+                <!-- Start Friend Widget -->
+                <div class="friend bg-white rad-10 txt-c-mobile block-mobile p-20 p-relative">
+                    <div class="contact p-absolute">
+                        <i class="fa-solid fa-phone rad-half fs-14"></i>
+                        <i class="fa-regular fa-envelope rad-half fs-14"></i>
+                    </div>
+                    <div class="profile txt-c mt-15">
+                        <img class="rad-half" src="/imgs/friend-04.jpg" alt="">
+                        <h4 class="fs-18 fw-700 mt-15 mb-0">Shady Nabil</h4>
+                        <p class="c-grey fw-300">Mobile Developer</p>
+                    </div>
+                    <div class="details mt-15 pb-10 mb-15">
+                        <div class="detail-row d-flex">
+                            <i class="fa-regular fa-face-smile mtb-auto mr-15"></i>
+                            <p class="p-0 m-0 fw-500">45 Friend</p>
+                        </div>
+                        <div class="detail-row d-flex">
+                            <i class="fa-solid fa-diagram-project mtb-auto mr-15"></i>
+                            <p class="p-0 m-0 fw-500">79 Project</p>
+                        </div>
+                        <div class="detail-row d-flex">
+                            <i class="fa-regular fa-newspaper mtb-auto mr-15"></i>
+                            <p class="p-0 m-0 fw-500">22 Articles</p>
+                        </div>
+                    </div>
+                    <div class="options between-flex">
+                        <div class="c-grey fs-13 fw-500">Joined 08/19/2014</div>
+                        <div class="d-flex">
+                            <a class="button bg-blue c-white btn-shape fs-13 fw-500 center-flex mr-5"
+                                href="#">Profile</a>
+                            <a class="button bg-red c-white btn-shape fs-13 fw-500 center-flex" href="#">Remove</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Friend Widget -->
+                
+                <!-- Start Friend Widget -->
+                <div class="friend bg-white rad-10 txt-c-mobile block-mobile p-20 p-relative">
+                    <div class="contact p-absolute">
+                        <i class="fa-solid fa-phone rad-half fs-14"></i>
+                        <i class="fa-regular fa-envelope rad-half fs-14"></i>
+                    </div>
+                    <div class="profile txt-c mt-15">
+                        <img class="rad-half" src="/imgs/friend-05.jpg" alt="">
+                        <h4 class="fs-18 fw-700 mt-15 mb-0">Mohamed Ibrahim</h4>
+                        <p class="c-grey fw-300">Algorithm Developer</p>
+                    </div>
+                    <div class="details mt-15 pb-10 mb-15">
+                        <div class="detail-row d-flex">
+                            <i class="fa-regular fa-face-smile mtb-auto mr-15"></i>
+                            <p class="p-0 m-0 fw-500">80 Friend</p>
+                        </div>
+                        <div class="detail-row d-flex">
+                            <i class="fa-solid fa-diagram-project mtb-auto mr-15"></i>
+                            <p class="p-0 m-0 fw-500">30 Project</p>
+                        </div>
+                        <div class="detail-row d-flex">
+                            <i class="fa-regular fa-newspaper mtb-auto mr-15"></i>
+                            <p class="p-0 m-0 fw-500">18 Articles</p>
+                        </div>
+                    </div>
+                    <div class="options between-flex">
+                        <div class="c-grey fs-13 fw-500">Joined 28/08/2020</div>
+                        <div class="d-flex">
+                            <a class="button bg-blue c-white btn-shape fs-13 fw-500 center-flex mr-5"
+                                href="#">Profile</a>
+                            <a class="button bg-red c-white btn-shape fs-13 fw-500 center-flex" href="#">Remove</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Friend Widget -->
+
+
+                <!-- Start Friend Widget -->
+                <div class="friend bg-white rad-10 txt-c-mobile block-mobile p-20 p-relative">
+                    <div class="contact p-absolute">
+                        <i class="fa-solid fa-phone rad-half fs-14"></i>
+                        <i class="fa-regular fa-envelope rad-half fs-14"></i>
+                    </div>
+                    <div class="profile txt-c mt-15">
+                        <img class="rad-half" src="/imgs/friend-01.jpg" alt="">
+                        <h4 class="fs-18 fw-700 mt-15 mb-0">Ahmed Nasser</h4>
+                        <p class="c-grey fw-300">Javascript Developer</p>
+                    </div>
+                    <div class="details mt-15 pb-10 mb-15">
+                        <div class="detail-row d-flex">
+                            <i class="fa-regular fa-face-smile mtb-auto mr-15"></i>
+                            <p class="p-0 m-0 fw-500">99 Friend</p>
+                        </div>
+                        <div class="detail-row d-flex">
+                            <i class="fa-solid fa-diagram-project mtb-auto mr-15"></i>
+                            <p class="p-0 m-0 fw-500">15 Project</p>
+                        </div>
+                        <div class="detail-row d-flex">
+                            <i class="fa-regular fa-newspaper mtb-auto mr-15"></i>
+                            <p class="p-0 m-0 fw-500">25 Articles</p>
+                        </div>
+                    </div>
+                    <div class="options between-flex">
+                        <div class="c-grey fs-13 fw-500">Joined 02/10/2021</div>
+                        <div class="d-flex">
+                            <a class="button bg-blue c-white btn-shape fs-13 fw-500 center-flex mr-5"
+                                href="#">Profile</a>
+                            <a class="button bg-red c-white btn-shape fs-13 fw-500 center-flex" href="#">Remove</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Friend Widget -->
+
+
+                <!-- Start Friend Widget -->
+                <div class="friend bg-white rad-10 txt-c-mobile block-mobile p-20 p-relative">
+                    <div class="contact p-absolute">
+                        <i class="fa-solid fa-phone rad-half fs-14"></i>
+                        <i class="fa-regular fa-envelope rad-half fs-14"></i>
+                    </div>
+                    <div class="profile txt-c mt-15">
+                        <img class="rad-half" src="/imgs/friend-02.jpg" alt="">
+                        <h4 class="fs-18 fw-700 mt-15 mb-0">Omar Fathy</h4>
+                        <p class="c-grey fw-300">Cloud Developer</p>
+                    </div>
+                    <div class="details mt-15 pb-10 mb-15">
+                        <div class="detail-row d-flex">
+                            <i class="fa-regular fa-face-smile mtb-auto mr-15"></i>
+                            <p class="p-0 m-0 fw-500">50 Friend</p>
+                        </div>
+                        <div class="detail-row d-flex">
+                            <i class="fa-solid fa-diagram-project mtb-auto mr-15"></i>
+                            <p class="p-0 m-0 fw-500">24 Project</p>
+                        </div>
+                        <div class="detail-row d-flex">
+                            <i class="fa-regular fa-newspaper mtb-auto mr-15"></i>
+                            <p class="p-0 m-0 fw-500">10 Articles</p>
+                        </div>
+                    </div>
+                    <div class="options between-flex">
+                        <div class="c-grey fs-13 fw-500">Joined 14/5/2023</div>
+                        <div class="d-flex">
+                            <a class="button bg-blue c-white btn-shape fs-13 fw-500 center-flex mr-5"
+                                href="#">Profile</a>
+                            <a class="button bg-red c-white btn-shape fs-13 fw-500 center-flex" href="#">Remove</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Friend Widget -->
+
+
+                <!-- Start Friend Widget -->
+                <div class="friend bg-white rad-10 txt-c-mobile block-mobile p-20 p-relative">
+                    <div class="contact p-absolute">
+                        <i class="fa-solid fa-phone rad-half fs-14"></i>
+                        <i class="fa-regular fa-envelope rad-half fs-14"></i>
+                    </div>
+                    <div class="profile txt-c mt-15">
+                        <img class="rad-half" src="/imgs/friend-03.jpg" alt="">
+                        <h4 class="fs-18 fw-700 mt-15 mb-0">Omar Ahmed</h4>
+                        <p class="c-grey fw-300">Mobile Developer</p>
+                    </div>
+                    <div class="details mt-15 pb-10 mb-15">
+                        <div class="detail-row d-flex">
+                            <i class="fa-regular fa-face-smile mtb-auto mr-15"></i>
+                            <p class="p-0 m-0 fw-500">89 Friend</p>
+                        </div>
+                        <div class="detail-row d-flex">
+                            <i class="fa-solid fa-diagram-project mtb-auto mr-15"></i>
+                            <p class="p-0 m-0 fw-500">69 Project</p>
+                        </div>
+                        <div class="detail-row d-flex">
+                            <i class="fa-regular fa-newspaper mtb-auto mr-15"></i>
+                            <p class="p-0 m-0 fw-500">75 Articles</p>
+                        </div>
+                    </div>
+                    <div class="options between-flex">
+                        <div class="c-grey fs-13 fw-500">Joined 04/14/2011</div>
+                        <div class="d-flex">
+                            <a class="button bg-blue c-white btn-shape fs-13 fw-500 center-flex mr-5"
+                                href="#">Profile</a>
+                            <a class="button bg-red c-white btn-shape fs-13 fw-500 center-flex" href="#">Remove</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Friend Widget -->
+
+
+                <!-- Start Friend Widget -->
+                <div class="friend bg-white rad-10 txt-c-mobile block-mobile p-20 p-relative">
+                    <div class="contact p-absolute">
+                        <i class="fa-solid fa-phone rad-half fs-14"></i>
+                        <i class="fa-regular fa-envelope rad-half fs-14"></i>
+                    </div>
+                    <div class="profile txt-c mt-15">
+                        <img class="rad-half" src="/imgs/friend-04.jpg" alt="">
+                        <h4 class="fs-18 fw-700 mt-15 mb-0">Shady Nabil</h4>
+                        <p class="c-grey fw-300">Mobile Developer</p>
+                    </div>
+                    <div class="details mt-15 pb-10 mb-15">
+                        <div class="detail-row d-flex">
+                            <i class="fa-regular fa-face-smile mtb-auto mr-15"></i>
+                            <p class="p-0 m-0 fw-500">45 Friend</p>
+                        </div>
+                        <div class="detail-row d-flex">
+                            <i class="fa-solid fa-diagram-project mtb-auto mr-15"></i>
+                            <p class="p-0 m-0 fw-500">79 Project</p>
+                        </div>
+                        <div class="detail-row d-flex">
+                            <i class="fa-regular fa-newspaper mtb-auto mr-15"></i>
+                            <p class="p-0 m-0 fw-500">22 Articles</p>
+                        </div>
+                    </div>
+                    <div class="options between-flex">
+                        <div class="c-grey fs-13 fw-500">Joined 08/19/2014</div>
+                        <div class="d-flex">
+                            <a class="button bg-blue c-white btn-shape fs-13 fw-500 center-flex mr-5"
+                                href="#">Profile</a>
+                            <a class="button bg-red c-white btn-shape fs-13 fw-500 center-flex" href="#">Remove</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Friend Widget -->
+                
+                <!-- Start Friend Widget -->
+                <div class="friend bg-white rad-10 txt-c-mobile block-mobile p-20 p-relative">
+                    <div class="contact p-absolute">
+                        <i class="fa-solid fa-phone rad-half fs-14"></i>
+                        <i class="fa-regular fa-envelope rad-half fs-14"></i>
+                    </div>
+                    <div class="profile txt-c mt-15">
+                        <img class="rad-half" src="/imgs/friend-05.jpg" alt="">
+                        <h4 class="fs-18 fw-700 mt-15 mb-0">Mohamed Ibrahim</h4>
+                        <p class="c-grey fw-300">Algorithm Developer</p>
+                    </div>
+                    <div class="details mt-15 pb-10 mb-15">
+                        <div class="detail-row d-flex">
+                            <i class="fa-regular fa-face-smile mtb-auto mr-15"></i>
+                            <p class="p-0 m-0 fw-500">80 Friend</p>
+                        </div>
+                        <div class="detail-row d-flex">
+                            <i class="fa-solid fa-diagram-project mtb-auto mr-15"></i>
+                            <p class="p-0 m-0 fw-500">30 Project</p>
+                        </div>
+                        <div class="detail-row d-flex">
+                            <i class="fa-regular fa-newspaper mtb-auto mr-15"></i>
+                            <p class="p-0 m-0 fw-500">18 Articles</p>
+                        </div>
+                    </div>
+                    <div class="options between-flex">
+                        <div class="c-grey fs-13 fw-500">Joined 28/08/2020</div>
+                        <div class="d-flex">
+                            <a class="button bg-blue c-white btn-shape fs-13 fw-500 center-flex mr-5"
+                                href="#">Profile</a>
+                            <a class="button bg-red c-white btn-shape fs-13 fw-500 center-flex" href="#">Remove</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Friend Widget -->
+            </div>
+
+        </div>
+
+</body>
+
+
+</html>

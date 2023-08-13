@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings</title>
+
+    <!-- Main CSS File -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Render All Elements Normally -->
+    <link rel="stylesheet" href="css/normailze.css">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- FrameWork -->
+    <link rel="stylesheet" href="css/framework.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,600&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="page d-flex">
+        <div class="sidebar bg-white p-20 p-relative">
+            <h3 class="p-relative txt-c mt-0">Elzero</h3>
+            <ul>
+                <li>
+                    <a class=" d-flex align-center fs-14 c-black rad-6 p-10" href="index.html">
+                        <i class="fa-regular fa-chart-bar fa-fw"></i>
+                        <span>Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="active d-flex align-center fs-14 c-black rad-6 p-10" href="settings.html">
+                        <i class="fa-solid fa-gear fa-fw"></i>
+                        <span>Settings</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="profile.html">
+                        <i class="fa-regular fa-user fa-fw"></i>
+                        <span>Profile</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="projects.html">
+                        <i class="fa-solid fa-diagram-project fa-fw"></i>
+                        <span>Projects</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="courses.html">
+                        <i class="fa-solid fa-graduation-cap fa-fw"></i>
+                        <span>Courses</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="friends.html">
+                        <i class="fa-regular fa-circle-user fa-fw"></i>
+                        <span>Friends</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="files.html">
+                        <i class="fa-regular fa-file fa-fw"></i>
+                        <span>Files</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="plans.html">
+                        <i class="fa-regular fa-credit-card fa-fw"></i>
+                        <span>Plans</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="content w-full">
+            <!-- Start Head -->
+            <div class="head bg-white p-15 between-flex">
+                <div class="search p-relative">
+                    <input class="p-10" type="search" placeholder="Type A Keyword" />
+                </div>
+                <div class="icons d-flex align-center">
+                    <span class="notification p-relative">
+                        <i class="fa-regular fa-bell fa-lg"></i>
+                    </span>
+                    <img src="imgs/avatar.png" alt="" />
+                </div>
+            </div>
+            <!-- End Head -->
+            <h1 class="p-relative">Settings</h1>
+
+            <div class="wrapper d-grid gap-20 mt-25">
+
+                <!-- Start Site Control Widget -->
+                <div class="site-control bg-white rad-10 txt-c-mobile block-mobile p-20">
+                    <div class="headings">
+                        <h3 class="fw-700 fs-30">Site Control</h3>
+                        <p class="c-grey fw-500">Control The Website If There Is Maintenance</p>
+                    </div>
+                    <div class="site-control between-flex">
+                        <div>
+                            <h3 class="fw-400 fs-20 mb-1">Website Control</h3>
+                            <p class="c-grey fw-500">Open/Close Website And Type The Reason</p>
+                        </div>
+                        <div>
+                            <label>
+                                <input class="toggle-checkbox" type="checkbox" checked />
+                                <div class="toggle-switch"></div>
+                            </label>
+                        </div>
+                    </div>
+                    <form>
+                        <textarea class="d-block mt-15 mb-20 w-full p-10 b-none bg-white rad-6 border-ccc"
+                            placeholder="Your Thought"></textarea>
+                    </form>
+                </div>
+                <!-- End Site Control Widget -->
+
+                <!-- Start Site Control Widget -->
+                <div class="general-info bg-white rad-10 txt-c-mobile block-mobile p-20">
+                    <div class="headings">
+                        <h3 class="fw-700 fs-30">General Info</h3>
+                        <p class="c-grey fw-500">General Information About Your Account</p>
+                    </div>
+
+                    <p class="c-grey fw-500 mb-2">First Name</p>
+                    <input class="d-block mb-20 w-full p-10 b-none border-ccc rad-6" type="text"
+                        placeholder="First Name" />
+
+                    <p class="c-grey fw-500 mb-2">Last Name</p>
+                    <input class="d-block mb-20 w-full p-10 b-none border-ccc rad-6" type="text"
+                        placeholder="Last Name" />
+
+                    <p class="c-grey fw-500 mb-2">Last Name</p>
+                    <div class="email d-flex">
+                        <input class="d-block mr-20 mb-20 w-full p-10 b-none bg-eee rad-6 border-ccc" type="text"
+                            placeholder="o@nn.sa" />
+                        <span class=" mr-10 c-blue mt-10 fw-600 fs-18">Change</span>
+                    </div>
+
+                </div>
+                <!-- End Site Control Widget -->
+
+                <!-- Start Security Info Widget -->
+                <div class="security-info bg-white rad-10 txt-c-mobile block-mobile p-20">
+                    <div class="headings">
+                        <h3 class="fw-700 fs-30">Security Info</h3>
+                        <p class="c-grey fw-500">Security Information About Your Account</p>
+                    </div>
+                    <div class="password between-flex mt-25 ">
+                        <div>
+                            <h3 class="fw-500 fs-18 mb-1">Password</h3>
+                            <p class="c-grey fw-500 fs-16">Last Change On 25/10/2021</p>
+                        </div>
+                        <div>
+                            <a class="button bg-blue c-white btn-shape fs-18fw-500 center-flex" href="#">Change</a>
+                        </div>
+                    </div>
+
+                    <div class="auth between-flex mt-20">
+                        <div>
+                            <h3 class="fw-500 fs-18 mb-1">Two-Factor Authentication</h3>
+                            <p class="c-grey fw-500 fs-16">Enable/Disable The Feature</p>
+                        </div>
+                        <div>
+                            <label>
+                                <input class="toggle-checkbox" type="checkbox" checked />
+                                <div class="toggle-switch"></div>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="device between-flex mt-20">
+                        <div>
+                            <h3 class="fw-500 fs-18 mb-1">Devices</h3>
+                            <p class="c-grey fw-500 fs-16">Check The Login Devices List</p>
+                        </div>
+                        <div>
+                            <a class="button bg-eee c-black btn-shape fs-18 fw-500 center-flex" href="#">Devices</a>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- End Security Info Widget -->
+
+                <!-- Start Widgets Control Widget -->
+                <div class="widgets-control bg-white rad-10 txt-c-mobile block-mobile p-20">
+                    <div class="headings">
+                        <h3 class="fw-700 fs-30">Widgets Control</h3>
+                        <p class="c-grey fw-500">Show/Hide Widgets</p>
+                    </div>
+                    <div class="control d-flex align-center mb-15">
+                        <input type="checkbox" id="one" class="" checked />
+                        <label for="one" class="fs-18 fw-500">Quick Draft</label>
+                    </div>
+                    <div class="control d-flex align-center mb-15">
+                        <input type="checkbox" id="two" checked />
+                        <label for="two" class="fs-18 fw-500">Yearly Targets</label>
+                    </div>
+                    <div class="control d-flex align-center mb-15">
+                        <input type="checkbox" id="three" checked />
+                        <label for="three" class="fs-18 fw-500">Tickets Statistics</label>
+                    </div>
+                    <div class="control d-flex align-center mb-15">
+                        <input type="checkbox" id="four" checked />
+                        <label for="four" class="fs-18 fw-500">Latest News</label>
+                    </div>
+                    <div class="control d-flex align-center mb-15">
+                        <input type="checkbox" id="five" />
+                        <label for="five" class="fs-18 fw-500">Latest Tasks</label>
+                    </div>
+                    <div class="control d-flex align-center mb-15">
+                        <input type="checkbox" id="six" checked />
+                        <label for="six" class="fs-18 fw-500">Top Search Items</label>
+                    </div>
+                </div>
+                <!-- End Widgets Control Widget -->
+
+
+            
+            </div>
+
+        </div>
+
+</body>
+
+
+</html>
